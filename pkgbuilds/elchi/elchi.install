@@ -1,0 +1,4 @@
+post_install() {
+  echo "==> Run 'elchi-omarchy-setup' to bind the dictation key in Hyprland"
+  echo "    (ROG key by default; see 'elchi-omarchy-setup --help' to change it)."
+}
