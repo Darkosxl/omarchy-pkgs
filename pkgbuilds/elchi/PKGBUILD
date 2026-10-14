@@ -23,7 +23,7 @@ source=("Elchi_${pkgver}_amd64.deb::https://speech.patientdesk.ai/downloads/elch
 noextract=("Elchi_${pkgver}_amd64.deb")
 sha256sums=('c6e943f83a097db3f236871c0ea5a2f5631e4db73d5118c20e48e34d8ffc0b3c'
             'f455d16cc41bd3880a4a1b66bc8247b2cc62d7e6ba186aedbfc7ee2c64f35c7a'
-            'be9e1cf04ab792856b8ff57ae2761dfe04052a811e7dd05e233a056edb435c35')
+            '36b402826688da3eee914c4da7507c1f4cf8bbc68ebeaeeda3ed469b258189f3')
 
 package() {
   # The .deb already has the Arch-compatible layout: /usr/bin/elchi with
